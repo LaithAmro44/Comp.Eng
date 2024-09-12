@@ -39,26 +39,3 @@ document.querySelectorAll('#navbar a').forEach(function(link) {
 document.querySelectorAll('map area').forEach(function(area) {
     area.addEventListener('click', openLinkAndRefresh);
 });
-
-/* document.addEventListener('DOMContentLoaded', function() {
-    // Handle clickable image map
-    const mapAreas = document.querySelectorAll('area');
-    mapAreas.forEach(area => {
-        area.addEventListener('click', function() {
-            setTimeout(function() {
-                location.reload();
-            }); 
-        });
-    });
-
-    // Handle navigation bar links
-    const navbarLinks = document.querySelectorAll('#navbar a');
-    navbarLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            setTimeout(function() {
-                location.reload();
-            });  
-        });
-    });
-});
-*/
