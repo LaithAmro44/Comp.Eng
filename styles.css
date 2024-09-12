@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('Images/BAU.JPG') no-repeat center center fixed;
+    background-size: cover;
+    direction: rtl;
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+}
+
+/* Style for the entire navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Zain", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 100%; /* Ensure navbar takes full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Style for the sections inside the navbar */
+.navbar .sections {
+    display: flex;
+    flex-grow: 1; /* Make sections fill available space */
+    justify-content: space-around; /* Distribute space evenly */
+    margin-left: 20px; /* Remove left margin to prevent shifting */
+    margin-right: 20px; /* Adjust this margin to ensure space between sections and icons */
+}
+
+/* Style for the navigation links */
+.navbar .sections a {
+    display: inline-block; /* Ensure hover effect fits the text */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px; /* Padding around text */
+    font-size: 13px;
+    border-radius: 10px; /* Rounded corners for hover effect */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for navigation links */
+.navbar .sections a:hover {
+    background-color: #555; /* Background color on hover */
+    color: #f1f1f1; /* Text color on hover */
+}
+
+/* Style for the icons container */
+.navbar .icons {
+    display: flex;
+    gap: 10px; /* Reduced gap between icons */
+}
+
+/* Style for the icons */
+.navbar .icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for icons */
+.navbar .icons a:hover {
+    color: #f1f1f1; /* Color of icons on hover */
+}
+
+
+.content {
+    margin: 50px auto;
+    width: 100%;
+}
+
+.centered-text {
+    font-family: 'Calibri', sans-serif;
+    font-size: 11px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;  /* Makes the background fit the text */
+    text-align: center;
+    line-height: 1.6;
+    margin: 0 auto;
+    font-family: "Lemonada", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 90px;
+}
+
+.image-container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+img {
+    height: auto;
+}
+
+.text-one {
+    color: rgb(209, 168, 32);
+}
+.text-two {
+    color: rgb(16, 157, 175);
+}
+.text-three { 
+    color: rgb(103, 221, 148);
+}
+.text-four {
+    color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul li a {
+        padding: 10px 0;
+    }
+
+    .icons {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .text-container {
+        width: 90%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
