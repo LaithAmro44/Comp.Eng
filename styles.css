@@ -23,8 +23,7 @@ body {
     padding: 10px;
     color: rgb(255, 255, 255);
     font-family: "Zain", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+    font-weight: bolder;
     width: 100%; /* Ensure navbar takes full width */
     box-sizing: border-box; /* Include padding in width calculation */
 }
@@ -93,7 +92,7 @@ body {
     margin: 0 auto;
     font-family: "Lemonada", cursive;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 750;
     font-style: normal;
     margin-bottom: 90px;
 }
