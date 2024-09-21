@@ -45,34 +45,35 @@ body {
     padding: 10px 20px; /* Padding around text */
     font-size: 13px;
     border-radius: 10px; /* Rounded corners for hover effect */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Smooth transition for scaling */
 }
 
 /* Hover effect for navigation links */
 .navbar .sections a:hover {
     background-color: #555; /* Background color on hover */
     color: #f1f1f1; /* Text color on hover */
+    transform: scale(1.2); /* Scale text to 1.1 on hover */
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Smooth transition for all effects */
 }
 
-/* Style for the icons container */
+/*
 .navbar .icons {
     display: flex;
-    gap: 10px; /* Reduced gap between icons */
+    gap: 10px; 
 }
 
-/* Style for the icons */
 .navbar .icons a {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    transition: color 0.3s ease; /* Smooth transition */
+    transition: color 0.3s ease; 
 }
 
-/* Hover effect for icons */
+
 .navbar .icons a:hover {
-    color: #f1f1f1; /* Color of icons on hover */
+    color: #f1f1f1; 
 }
-
+*/
 
 .content {
     margin: 50px auto;
@@ -144,3 +145,58 @@ img {
         width: 100%;
     }
 }
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    gap: 60px;
+}
+
+.socials li {
+    display: inline;
+}
+
+.socials a {
+    font-family: Calibri, sans-serif; /* Font style for text */
+    color: rgb(53, 133, 224); /* Ensures the text color matches the footer */
+    text-decoration: none; /* Remove underline from the links */
+    display: flex;
+    align-items: center; /* Align text and image vertically */
+    gap: 8px; /* Creates the gap between text and image */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for scaling */
+}
+
+.socials a:hover {
+    color: #ffffff; /* Change color on hover */
+    transform: scale(1.2); /* Scale both text and image */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for both */
+}
+
+.socials a img {
+    width: 40px;
+    height: 40px;
+    transition: inherit; /* Inherit the hover effect from the parent link */
+}
+
