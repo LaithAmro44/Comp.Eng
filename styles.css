@@ -119,7 +119,9 @@ img {
 .text-four {
     color: rgb(255, 255, 255);
 }
-
+.text-five {
+    color: rgb(28, 172, 88);
+}
 
 @media (max-width: 768px) {
     nav ul {
