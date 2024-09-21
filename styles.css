@@ -179,6 +179,16 @@ footer {
     display: inline; /* Ensure the icons remain inline */
 }
 
+/* Targeting the Email link (first child) */
+.socials li:nth-child(1) a {
+    margin-right: 5px; /* Add margin to the right of the Email icon */
+}
+
+/* Targeting the Facebook link (third child) */
+.socials li:nth-child(3) a {
+    margin-left: 5px; /* Add margin to the left of the Facebook icon */
+}
+
 .socials a {
     font-family: "Playpen Sans", sans-serif;
     font-optical-sizing: auto;
