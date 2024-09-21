@@ -76,7 +76,7 @@ body {
 */
 
 .content {
-    margin: 50px auto;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -123,6 +123,7 @@ img {
     color: rgb(28, 172, 88);
 }
 
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -156,10 +157,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-family: "Playpen Sans", cursive;
-    font-optical-sizing: auto;
-    font-weight: 750;
-    font-style: normal;
+    
 }
 
 .footer-content {
@@ -173,32 +171,35 @@ footer {
     padding: 0;
     margin-top: 10px;
     display: flex;
-    gap: 60px;
+    justify-content: space-between; /* Distribute the social icons evenly */
+    width: 100%; /* Make the icons span the entire width of the footer */
 }
 
 .socials li {
-    display: inline;
+    display: inline; /* Ensure the icons remain inline */
 }
 
 .socials a {
-    font-family: Calibri, sans-serif; /* Font style for text */
-    color: rgb(53, 133, 224); /* Ensures the text color matches the footer */
+    font-family: "Playpen Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: bold;
+    color: rgb(255, 255, 255); /* Ensure text color matches the footer */
     text-decoration: none; /* Remove underline from the links */
     display: flex;
     align-items: center; /* Align text and image vertically */
-    gap: 8px; /* Creates the gap between text and image */
+    gap: 8px; /* Creates a small gap between text and image */
     transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for scaling */
 }
 
 .socials a:hover {
-    color: #ffffff; /* Change color on hover */
-    transform: scale(1.2); /* Scale both text and image */
+    color: #bebebe; /* Change color on hover */
+    transform: scale(1.1); /* Scale both text and image */
     transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for both */
 }
 
 .socials a img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     transition: inherit; /* Inherit the hover effect from the parent link */
 }
-
