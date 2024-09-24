@@ -181,12 +181,12 @@ footer {
 
 /* Targeting the Email link (first child) */
 .socials li:nth-child(1) a {
-    margin-right: 5px; /* Add margin to the right of the Email icon */
+    margin-right: 10px; /* Add margin to the right of the Email icon */
 }
 
 /* Targeting the Facebook link (third child) */
 .socials li:nth-child(3) a {
-    margin-left: 5px; /* Add margin to the left of the Facebook icon */
+    margin-left: 10px; /* Add margin to the left of the Facebook icon */
 }
 
 
