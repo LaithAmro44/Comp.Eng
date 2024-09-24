@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -52,28 +53,9 @@ body {
 .navbar .sections a:hover {
     background-color: #555; /* Background color on hover */
     color: #f1f1f1; /* Text color on hover */
-    transform: scale(1.2); /* Scale text to 1.1 on hover */
+    transform: scale(1.1); /* Scale text to 1.1 on hover */
     transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Smooth transition for all effects */
 }
-
-/*
-.navbar .icons {
-    display: flex;
-    gap: 10px; 
-}
-
-.navbar .icons a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    transition: color 0.3s ease; 
-}
-
-
-.navbar .icons a:hover {
-    color: #f1f1f1; 
-}
-*/
 
 .content {
     margin-top: 50px;
@@ -181,19 +163,18 @@ footer {
 
 /* Targeting the Email link (first child) */
 .socials li:nth-child(1) a {
-    margin-right: 10px; /* Add margin to the right of the Email icon */
+    margin-right: 15px; /* Add margin to the right of the Email icon */
 }
 
 /* Targeting the Facebook link (third child) */
 .socials li:nth-child(3) a {
-    margin-left: 10px; /* Add margin to the left of the Facebook icon */
+    margin-left: 15px; /* Add margin to the left of the Facebook icon */
 }
-
 
 .socials a {
     font-family: "Playpen Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 500;
     font-style: bold;
     color: rgb(255, 255, 255); /* Ensure text color matches the footer */
     text-decoration: none; /* Remove underline from the links */
