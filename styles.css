@@ -12,7 +12,7 @@ body {
     direction: rtl;
     text-align: center;
     color: #fff;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 /* Style for the entire navbar */
