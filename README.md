@@ -31,20 +31,6 @@ The website also contains quick links to useful external resources like:
 - `src/app/layout` → main shell layout
 - `app-routing.module.ts` → application routing configuration
 
-## How to Run
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the development server:
-   ```bash
-   ng serve
-   ```
-3. Open the browser at:
-   ```
-   http://localhost:4200/
-   ```
-
 ## Notes
 - This project is currently a simple frontend structure and can be extended with more pages and dynamic content.
 - Some links in the navbar point to external university resources.
